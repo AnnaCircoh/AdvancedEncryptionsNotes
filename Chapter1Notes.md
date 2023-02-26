@@ -32,5 +32,25 @@ Also known as conventional algorithms
 
 # Cryptanalysis
 
-The science of recovering the plaintext of a message without accessing the key.
+The science of recovering the plaintext of a message without accessing the key. Breaking an encryption without the key being lost is a type of compromise.
+
+If you attempt this, it's an attack.
+
+# Cryptanalytic Attacks
+
+* Ciphertext-only attack
+* * The cryptanalyst has the ciphertext of several messages, all of which have been encrypted using the same encryption algorithm. 
+* Known-plaintext attack
+* * The cryptanalyst has access not only to the ciphertext of several messages, but also to the plaintext of those messages.
+* Chosen-plaintext attack
+* * The cryptanalyst not only has access to the ciphertext and associated plaintext for several messages, but he also chooses the plaintext that gets encrypted.
+* Adaptive-chosen-plaintext attack
+* * When the cryptanalyst can choose the plaintext that is encrypted, but also modify the choice based on the results of previous encryptions. 
+* Chosen-ciphertext attack
+* * The cryptanalyst is able to choose multiple types of ciphertext to be decrypted and has access to the plaintext
+* Chosen-key attack
+* * The cryptanalyst has some knowledge about the relationship between different keys. Not practical apparently.
+* Rubber-host cryptanalysis
+* * When a cryptanalyst tries to threaten, blackmail, or torture someone until they provide the key. If it's bought, that's a purchase-key attack. Unfortunately a powerful attack and possibly common...
+
 
