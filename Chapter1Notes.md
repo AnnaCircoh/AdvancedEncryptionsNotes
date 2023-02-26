@@ -30,9 +30,7 @@ Also known as conventional algorithms
 * * A cipher that encrypts/decrypts by blocks, normally 64-bits at a time using modern computers
 * * Note: I wonder how much will change when quantum releases?
 
+# Cryptanalysis
 
-# Examples
-
-So what if I wanted to encrypt t0m_is_@cting_w3ird , because he is... How could I send that over the internet without Weirdo Tom finding out?
-Guess that's covered later.
+The science of recovering the plaintext of a message without accessing the key.
 
